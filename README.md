@@ -17,5 +17,7 @@ We also take care of a lot of the struggles of IPC and coordinating state data b
 ## How does it work?
 We provide Kubernetes deployment files, and a docker-compose file to make it easy for you to deploy the framework.  The base framework consists of 4 components: a websocket handler, a rest ratelimit manager, [NATS](https://nats.io), and [redis](https://redis.io).  It is then up to your to use one of our worker libraries to build your bot logic, and deploy that to connect to the rest of the framework and start serving requests.  Without workers, Kubecord will effectively just maintain a state cache for you.
 
+![Kubecord diagram](/images/kubecord-diagram.png)
+
 ## Cool, how can I get started?
 At this time, the project is still in very active development, we are working with a few larger bot developers to integrate and test this system before we provide public releases. Stay tuned, and join us on Discord to discuss the project and recieve updates!
