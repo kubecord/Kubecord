@@ -4,4 +4,4 @@ These amazing people have made significant contributions to the Kubecord project
 
 Username | Primary Project | Discord
 -------- | --------------- | -------
-Kelwing | Auttaja | Kelwing#0001
+Kelwing | [Auttaja](https://auttaja.io) | Kelwing#0001
