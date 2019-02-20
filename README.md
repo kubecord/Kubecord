@@ -9,7 +9,7 @@ Kubecord is a framework for creating Discord bots that are scalable, light-weigh
 
 ![Kubecord](/images/kubecord.png)
 
-## I'm currently using X Discord library, what makes you better?
+## I'm currently using X Discord library, what makes Kubecord better?
 Classical API libraries don't scale well, and some have issues with potential stack overflows, and memory leaks.  As your bot grows, you'll start to notice the pain of running and scaling larger bots using the typical library.  Discord requires sharding after a certain number of guilds, and require that you maintain at most 2500 guilds per shard.  This is to reduce the load on Discords end, but can lead to some interesting situations where the largest guilds your bot serves are all on one shard, making automated scaling systems inefficient.  Kubecord is designed to scale your bot based on load, not arbitrary guild counts.  We also make it easy to break your bot apart into smaller logical components that each scale on their own, saving you a lot in compute resources.
 
 Furthermore, separating different components of the bot into smaller peices will prevent poor performance or large load on one system, for example: auto-moderation, from affecting the rest of the bot or its ability to consume events from Discord.
