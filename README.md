@@ -7,6 +7,8 @@ Meta-repository for Kubecord: a scalable, microservice-based Discord bot framewo
 ## What is Kubecord?
 Kubecord is a framework for creating Discord bots that are scalable, light-weight, and self-healing.  The focus is to target Kubernetes as a platform, but we will provide instructions and tooling to deploy to other environments as well.
 
+![Kubecord](/images/kubecord.png)
+
 ## I'm currently using X Discord library, what makes you better?
 Classical API libraries don't scale well, and some have issues with potential stack overflows, and memory leaks.  As your bot grows, you'll start to notice the pain of running and scaling larger bots using the typical library.  Discord requires sharding after a certain number of guilds, and require that you maintain at most 2500 guilds per shard.  This is to reduce the load on Discords end, but can lead to some interesting situations where the largest guilds your bot serves are all on one shard, making automated scaling systems inefficient.  Kubecord is designed to scale your bot based on load, not arbitrary guild counts.  We also make it easy to break your bot apart into smaller logical components that each scale on their own, saving you a lot in compute resources.
 
