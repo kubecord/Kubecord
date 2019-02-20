@@ -10,3 +10,4 @@ codepupper | [thaldr.in](https://thaldr.in) / [yiff](https://yiff.thaldr.in) | r
 vladfrangu | Projects on [GitHub](https://github.com/vladfrangu) | King - Vlad#0002
 JakeMakesStuff | [Auttaja](https://auttaja.io) | JakeMakesStuff#0001
 Tmpod | [CyborgToast](https://cyborgtoast.tk) | Tmpod#1004
+GilbertGobbels | [GAwesomeBot](https://gawesomebot.com) | GG142#1420
